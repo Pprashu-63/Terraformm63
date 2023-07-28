@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/Pprashu-63/terra63.git'
+                git branch: 'lock63', url: 'https://github.com/Pprashu-63/terra63.git'
             }
         }
         stage('Terraform init') {
